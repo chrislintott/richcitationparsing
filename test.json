@@ -1,0 +1,64 @@
+{
+    "uri": "http://dx.doi.org/10.1371/journal.pone.0000000",
+    "word_count": 4567,
+    "bibliographic": {
+        "source": "CrossRef",
+        "type": "journal-article",
+        "title": "Quisque congue massa",
+        "page": "1-8",
+        "reference-count": 2,
+        "container-title": "PLOS One",
+        "author": [
+            {
+                "given": "John",
+                "family": "Doe"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                     2013
+                ]
+            ]
+        }
+    },
+    "references": {
+        "http://dx.doi.org/10.1371/journal.pone.0000000#pone.0000000-Doe1": {
+            "uri": "http://dx.doi.org/10.1371/journal.pone.0000000#pone.0000000-Doe1",
+            "citing_id": "http://dx.doi.org/10.1371/journal.pone.0000000",
+            "cited_id": "http://dx.doi.org/10.1234/1",
+            "index": 1,
+            "self_citation": false,
+            "original_citation": "Doe J. (2000) Morbi vitae lorem blandit. Duis in lorem interdum. 14: 11–18.",
+            "bibliographic": { "Some bibliographic stuff here" },
+            "citation_groups": [ (see below) ],
+        },
+        "http://dx.doi.org/10.1371/journal.pone.0000000#pone.0000000-Roe1": {
+            "uri": "http://dx.doi.org/10.1371/journal.pone.0000000#pone.0000000-Roe1",
+            "citing_id": "http://dx.doi.org/10.1371/journal.pone.0000000",
+            "cited_id": "http://dx.doi.org/10.1234/1",
+            "index": 1,
+            "self_citation": false,
+            "original_citation": "Roe J. (2000) Maecenas imperdiet leo ut bibendum auctor. Vivamus mollis. 88: 1012–22.",
+            "bibliographic": { "String"},
+            "citation_groups": [ (see below) ],
+        }
+    },
+    "citation_groups": [
+        {
+            "references": [
+                "http://dx.doi.org/10.1371/journal.pone.0000000#pone.0000000-Doe1",
+                "http://dx.doi.org/10.1371/journal.pone.0000000#pone.0000000-Roe1"
+            ],
+            "context": {
+                "ellipses_before": true,
+                "text_before": "non tempor nisi, sed blandit enim. Nam a tortor sapien",
+                "citation": "[1, 2]",
+                "text_after": ". Praesent felis lorem, dignissim ac diam quis, bibendum vehicula leo.",
+                "ellipses_after": false
+            },
+            "section": "Introduction",
+            "word_position": 23
+        }
+    ]
+}
