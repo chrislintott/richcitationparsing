@@ -16,3 +16,9 @@ target = "million"
 print textstr.find(target)
 
 #Use .find(target,beg,end) to specify where to begin and end searching. 
+
+
+#Writing out as JSON
+
+with open('data.txt', 'w') as outfile:
+    json.dump(text, outfile)
