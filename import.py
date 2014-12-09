@@ -5,8 +5,14 @@ jdata = json.load(json_data)
 # pprint (jdata)
 
 # titles = [element["title"] for element in jdata]
-print "url is "+ str(jdata[0]["bibliographic"]["subject"])
+#print "url is "+ str(jdata[0]["bibliographic"]["subject"])
 text = [group["context"]["text_before"] for group in jdata[0]["citation_groups"]]
-print text
+textstr=str(text)
 
-#pprint(titles)
+#print textstr
+
+target = "million"
+
+print textstr.find(target)
+
+#Use .find(target,beg,end) to specify where to begin and end searching. 
